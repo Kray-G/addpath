@@ -1,6 +1,6 @@
 @echo off
 
-cl.exe /DTEST /Fetest.exe addpath.c Advapi32.lib User32.lib
+cl.exe /nologo /DTEST /Fetest.exe addpath.c Advapi32.lib User32.lib > NUL
 
 copy /y test\init.txt test\data.txt > NUL
 test.exe list user
