@@ -2,7 +2,7 @@
 
 cl.exe /DTEST /Fetest.exe addpath.c Advapi32.lib User32.lib
 
-copy /y test\init.txt test\data.txt
+copy /y test\init.txt test\data.txt > NUL
 test.exe list user
 test.exe add user "C:\Program Files\Kinx\V1\bin"
 test.exe list user
