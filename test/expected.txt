@@ -1,0 +1,451 @@
+addpath.c
+Microsoft (R) Incremental Linker Version 14.16.27034.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:test.exe 
+addpath.obj 
+Advapi32.lib 
+User32.lib 
+        1 個のファイルをコピーしました。
+
+==== START TEST ====
+*** test-init: SystemRoot\system32;SystemRoot;SystemRoot\System32\Wbem;SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\;
+==== LIST (User) ====
+  1: SystemRoot\system32
+  2: SystemRoot
+  3: SystemRoot\System32\Wbem
+  4: SystemRoot\System32\WindowsPowerShell\v1.0\
+  5: SystemRoot\System32\OpenSSH\
+  6: C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\
+  7: C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\
+  8: C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\
+  9: C:\Program Files\Git\cmd
+ 10: C:\git\UnxUtils\usr\local\wbin
+ 11: C:\Program Files\Microsoft SQL Server\130\Tools\Binn\
+ 12: C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\
+ 13: C:\Strawberry\c\bin
+ 14: C:\Strawberry\perl\site\bin
+ 15: C:\Strawberry\perl\bin
+ 16: C:\Program Files\nodejs\
+ 17: C:\Program Files\Pandoc\
+---> Count = 17
+
+==== START TEST ====
+*** test-init: SystemRoot\system32;SystemRoot;SystemRoot\System32\Wbem;SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\;
+
+*** adding: C:\Program Files\Kinx\V1\bin
+
+*** appended: SystemRoot\system32;SystemRoot;SystemRoot\System32\Wbem;SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\;C:\Program Files\Kinx\V1\bin;
+
+==== START TEST ====
+*** test-init: SystemRoot\system32;SystemRoot;SystemRoot\System32\Wbem;SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\;C:\Program Files\Kinx\V1\bin;
+==== LIST (User) ====
+  1: SystemRoot\system32
+  2: SystemRoot
+  3: SystemRoot\System32\Wbem
+  4: SystemRoot\System32\WindowsPowerShell\v1.0\
+  5: SystemRoot\System32\OpenSSH\
+  6: C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\
+  7: C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\
+  8: C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\
+  9: C:\Program Files\Git\cmd
+ 10: C:\git\UnxUtils\usr\local\wbin
+ 11: C:\Program Files\Microsoft SQL Server\130\Tools\Binn\
+ 12: C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\
+ 13: C:\Strawberry\c\bin
+ 14: C:\Strawberry\perl\site\bin
+ 15: C:\Strawberry\perl\bin
+ 16: C:\Program Files\nodejs\
+ 17: C:\Program Files\Pandoc\
+ 18: C:\Program Files\Kinx\V1\bin
+---> Count = 18
+
+==== START TEST ====
+*** test-init: SystemRoot\system32;SystemRoot;SystemRoot\System32\Wbem;SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\;C:\Program Files\Kinx\V1\bin;
+found: C:\Program Files\Kinx\V1\bin
+
+==== START TEST ====
+*** test-init: SystemRoot\system32;SystemRoot;SystemRoot\System32\Wbem;SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\;C:\Program Files\Kinx\V1\bin;
+==== LIST (User) ====
+  1: SystemRoot\system32
+  2: SystemRoot
+  3: SystemRoot\System32\Wbem
+  4: SystemRoot\System32\WindowsPowerShell\v1.0\
+  5: SystemRoot\System32\OpenSSH\
+  6: C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\
+  7: C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\
+  8: C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\
+  9: C:\Program Files\Git\cmd
+ 10: C:\git\UnxUtils\usr\local\wbin
+ 11: C:\Program Files\Microsoft SQL Server\130\Tools\Binn\
+ 12: C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\
+ 13: C:\Strawberry\c\bin
+ 14: C:\Strawberry\perl\site\bin
+ 15: C:\Strawberry\perl\bin
+ 16: C:\Program Files\nodejs\
+ 17: C:\Program Files\Pandoc\
+ 18: C:\Program Files\Kinx\V1\bin
+---> Count = 18
+
+==== START TEST ====
+*** test-init: SystemRoot\system32;SystemRoot;SystemRoot\System32\Wbem;SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\;C:\Program Files\Kinx\V1\bin;
+
+*** adding: C:\Program Files\Kinx\V1\bin2
+
+*** appended: SystemRoot\system32;SystemRoot;SystemRoot\System32\Wbem;SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\;C:\Program Files\Kinx\V1\bin;C:\Program Files\Kinx\V1\bin2;
+
+==== START TEST ====
+*** test-init: SystemRoot\system32;SystemRoot;SystemRoot\System32\Wbem;SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\;C:\Program Files\Kinx\V1\bin;C:\Program Files\Kinx\V1\bin2;
+==== LIST (User) ====
+  1: SystemRoot\system32
+  2: SystemRoot
+  3: SystemRoot\System32\Wbem
+  4: SystemRoot\System32\WindowsPowerShell\v1.0\
+  5: SystemRoot\System32\OpenSSH\
+  6: C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\
+  7: C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\
+  8: C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\
+  9: C:\Program Files\Git\cmd
+ 10: C:\git\UnxUtils\usr\local\wbin
+ 11: C:\Program Files\Microsoft SQL Server\130\Tools\Binn\
+ 12: C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\
+ 13: C:\Strawberry\c\bin
+ 14: C:\Strawberry\perl\site\bin
+ 15: C:\Strawberry\perl\bin
+ 16: C:\Program Files\nodejs\
+ 17: C:\Program Files\Pandoc\
+ 18: C:\Program Files\Kinx\V1\bin
+ 19: C:\Program Files\Kinx\V1\bin2
+---> Count = 19
+
+==== START TEST ====
+*** test-init: SystemRoot\system32;SystemRoot;SystemRoot\System32\Wbem;SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\;C:\Program Files\Kinx\V1\bin;C:\Program Files\Kinx\V1\bin2;
+found: C:\Program Files\Kinx\V1\bin2
+
+==== START TEST ====
+*** test-init: SystemRoot\system32;SystemRoot;SystemRoot\System32\Wbem;SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\;C:\Program Files\Kinx\V1\bin;C:\Program Files\Kinx\V1\bin2;
+==== LIST (User) ====
+  1: SystemRoot\system32
+  2: SystemRoot
+  3: SystemRoot\System32\Wbem
+  4: SystemRoot\System32\WindowsPowerShell\v1.0\
+  5: SystemRoot\System32\OpenSSH\
+  6: C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\
+  7: C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\
+  8: C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\
+  9: C:\Program Files\Git\cmd
+ 10: C:\git\UnxUtils\usr\local\wbin
+ 11: C:\Program Files\Microsoft SQL Server\130\Tools\Binn\
+ 12: C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\
+ 13: C:\Strawberry\c\bin
+ 14: C:\Strawberry\perl\site\bin
+ 15: C:\Strawberry\perl\bin
+ 16: C:\Program Files\nodejs\
+ 17: C:\Program Files\Pandoc\
+ 18: C:\Program Files\Kinx\V1\bin
+ 19: C:\Program Files\Kinx\V1\bin2
+---> Count = 19
+
+==== START TEST ====
+*** test-init: SystemRoot\system32;SystemRoot;SystemRoot\System32\Wbem;SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\;C:\Program Files\Kinx\V1\bin;C:\Program Files\Kinx\V1\bin2;
+
+*** deleting: C:\Program Files\Kinx\V1\bin
+
+*** deleted: SystemRoot\system32;SystemRoot;SystemRoot\System32\Wbem;SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\;C:\Program Files\Kinx\V1\bin2
+
+==== START TEST ====
+*** test-init: SystemRoot\system32;SystemRoot;SystemRoot\System32\Wbem;SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\;C:\Program Files\Kinx\V1\bin2
+==== LIST (User) ====
+  1: SystemRoot\system32
+  2: SystemRoot
+  3: SystemRoot\System32\Wbem
+  4: SystemRoot\System32\WindowsPowerShell\v1.0\
+  5: SystemRoot\System32\OpenSSH\
+  6: C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\
+  7: C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\
+  8: C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\
+  9: C:\Program Files\Git\cmd
+ 10: C:\git\UnxUtils\usr\local\wbin
+ 11: C:\Program Files\Microsoft SQL Server\130\Tools\Binn\
+ 12: C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\
+ 13: C:\Strawberry\c\bin
+ 14: C:\Strawberry\perl\site\bin
+ 15: C:\Strawberry\perl\bin
+ 16: C:\Program Files\nodejs\
+ 17: C:\Program Files\Pandoc\
+ 18: C:\Program Files\Kinx\V1\bin2
+---> Count = 18
+
+==== START TEST ====
+*** test-init: SystemRoot\system32;SystemRoot;SystemRoot\System32\Wbem;SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\;C:\Program Files\Kinx\V1\bin2
+
+*** deleting: C:\Program Files\Kinx\V1\bin2
+
+*** deleted: SystemRoot\system32;SystemRoot;SystemRoot\System32\Wbem;SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\
+
+==== START TEST ====
+*** test-init: SystemRoot\system32;SystemRoot;SystemRoot\System32\Wbem;SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\
+==== LIST (User) ====
+  1: SystemRoot\system32
+  2: SystemRoot
+  3: SystemRoot\System32\Wbem
+  4: SystemRoot\System32\WindowsPowerShell\v1.0\
+  5: SystemRoot\System32\OpenSSH\
+  6: C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\
+  7: C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\
+  8: C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\
+  9: C:\Program Files\Git\cmd
+ 10: C:\git\UnxUtils\usr\local\wbin
+ 11: C:\Program Files\Microsoft SQL Server\130\Tools\Binn\
+ 12: C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\
+ 13: C:\Strawberry\c\bin
+ 14: C:\Strawberry\perl\site\bin
+ 15: C:\Strawberry\perl\bin
+ 16: C:\Program Files\nodejs\
+ 17: C:\Program Files\Pandoc\
+---> Count = 17
+
+==== START TEST ====
+*** test-init: SystemRoot\system32;SystemRoot;SystemRoot\System32\Wbem;SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\
+
+*** deleting: SystemRoot\system32
+
+*** deleted: SystemRoot;SystemRoot\System32\Wbem;SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\
+
+==== START TEST ====
+*** test-init: SystemRoot;SystemRoot\System32\Wbem;SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\
+==== LIST (User) ====
+  1: SystemRoot
+  2: SystemRoot\System32\Wbem
+  3: SystemRoot\System32\WindowsPowerShell\v1.0\
+  4: SystemRoot\System32\OpenSSH\
+  5: C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\
+  6: C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\
+  7: C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\
+  8: C:\Program Files\Git\cmd
+  9: C:\git\UnxUtils\usr\local\wbin
+ 10: C:\Program Files\Microsoft SQL Server\130\Tools\Binn\
+ 11: C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\
+ 12: C:\Strawberry\c\bin
+ 13: C:\Strawberry\perl\site\bin
+ 14: C:\Strawberry\perl\bin
+ 15: C:\Program Files\nodejs\
+ 16: C:\Program Files\Pandoc\
+---> Count = 16
+
+==== START TEST ====
+*** test-init: SystemRoot;SystemRoot\System32\Wbem;SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\
+not found: SystemRoot\system32
+
+==== START TEST ====
+*** test-init: SystemRoot;SystemRoot\System32\Wbem;SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\
+==== LIST (User) ====
+  1: SystemRoot
+  2: SystemRoot\System32\Wbem
+  3: SystemRoot\System32\WindowsPowerShell\v1.0\
+  4: SystemRoot\System32\OpenSSH\
+  5: C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\
+  6: C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\
+  7: C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\
+  8: C:\Program Files\Git\cmd
+  9: C:\git\UnxUtils\usr\local\wbin
+ 10: C:\Program Files\Microsoft SQL Server\130\Tools\Binn\
+ 11: C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\
+ 12: C:\Strawberry\c\bin
+ 13: C:\Strawberry\perl\site\bin
+ 14: C:\Strawberry\perl\bin
+ 15: C:\Program Files\nodejs\
+ 16: C:\Program Files\Pandoc\
+---> Count = 16
+
+==== START TEST ====
+*** test-init: SystemRoot;SystemRoot\System32\Wbem;SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\
+
+*** deleting: C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\
+
+*** deleted: SystemRoot;SystemRoot\System32\Wbem;SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\
+
+==== START TEST ====
+*** test-init: SystemRoot;SystemRoot\System32\Wbem;SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\
+==== LIST (User) ====
+  1: SystemRoot
+  2: SystemRoot\System32\Wbem
+  3: SystemRoot\System32\WindowsPowerShell\v1.0\
+  4: SystemRoot\System32\OpenSSH\
+  5: C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\
+  6: C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\
+  7: C:\Program Files\Git\cmd
+  8: C:\git\UnxUtils\usr\local\wbin
+  9: C:\Program Files\Microsoft SQL Server\130\Tools\Binn\
+ 10: C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\
+ 11: C:\Strawberry\c\bin
+ 12: C:\Strawberry\perl\site\bin
+ 13: C:\Strawberry\perl\bin
+ 14: C:\Program Files\nodejs\
+ 15: C:\Program Files\Pandoc\
+---> Count = 15
+
+==== START TEST ====
+*** test-init: SystemRoot;SystemRoot\System32\Wbem;SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\
+
+*** deleting: SystemRoot\System32\Wbem
+
+*** deleted: SystemRoot;SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\
+
+==== START TEST ====
+*** test-init: SystemRoot;SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\
+==== LIST (User) ====
+  1: SystemRoot
+  2: SystemRoot\System32\WindowsPowerShell\v1.0\
+  3: SystemRoot\System32\OpenSSH\
+  4: C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\
+  5: C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\
+  6: C:\Program Files\Git\cmd
+  7: C:\git\UnxUtils\usr\local\wbin
+  8: C:\Program Files\Microsoft SQL Server\130\Tools\Binn\
+  9: C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\
+ 10: C:\Strawberry\c\bin
+ 11: C:\Strawberry\perl\site\bin
+ 12: C:\Strawberry\perl\bin
+ 13: C:\Program Files\nodejs\
+ 14: C:\Program Files\Pandoc\
+---> Count = 14
+
+==== START TEST ====
+*** test-init: SystemRoot;SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\
+
+*** deleting: SystemRoot
+
+*** deleted: SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\
+
+==== START TEST ====
+*** test-init: SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\
+==== LIST (User) ====
+  1: SystemRoot\System32\WindowsPowerShell\v1.0\
+  2: SystemRoot\System32\OpenSSH\
+  3: C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\
+  4: C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\
+  5: C:\Program Files\Git\cmd
+  6: C:\git\UnxUtils\usr\local\wbin
+  7: C:\Program Files\Microsoft SQL Server\130\Tools\Binn\
+  8: C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\
+  9: C:\Strawberry\c\bin
+ 10: C:\Strawberry\perl\site\bin
+ 11: C:\Strawberry\perl\bin
+ 12: C:\Program Files\nodejs\
+ 13: C:\Program Files\Pandoc\
+---> Count = 13
+
+==== START TEST ====
+*** test-init: SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Pandoc\
+
+*** deleting: C:\Program Files\Pandoc\
+
+*** deleted: SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\
+
+==== START TEST ====
+*** test-init: SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\
+==== LIST (User) ====
+  1: SystemRoot\System32\WindowsPowerShell\v1.0\
+  2: SystemRoot\System32\OpenSSH\
+  3: C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\
+  4: C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\
+  5: C:\Program Files\Git\cmd
+  6: C:\git\UnxUtils\usr\local\wbin
+  7: C:\Program Files\Microsoft SQL Server\130\Tools\Binn\
+  8: C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\
+  9: C:\Strawberry\c\bin
+ 10: C:\Strawberry\perl\site\bin
+ 11: C:\Strawberry\perl\bin
+ 12: C:\Program Files\nodejs\
+---> Count = 12
+
+==== START TEST ====
+*** test-init: SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\
+
+*** deleting: C:\Strawberry\c\bin
+
+*** deleted: SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\
+
+==== START TEST ====
+*** test-init: SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\
+==== LIST (User) ====
+  1: SystemRoot\System32\WindowsPowerShell\v1.0\
+  2: SystemRoot\System32\OpenSSH\
+  3: C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\
+  4: C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\
+  5: C:\Program Files\Git\cmd
+  6: C:\git\UnxUtils\usr\local\wbin
+  7: C:\Program Files\Microsoft SQL Server\130\Tools\Binn\
+  8: C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\
+  9: C:\Strawberry\perl\site\bin
+ 10: C:\Strawberry\perl\bin
+ 11: C:\Program Files\nodejs\
+---> Count = 11
+
+==== START TEST ====
+*** test-init: SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\
+not found: C:\Program Files\Pandoc
+
+==== START TEST ====
+*** test-init: SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\
+==== LIST (User) ====
+  1: SystemRoot\System32\WindowsPowerShell\v1.0\
+  2: SystemRoot\System32\OpenSSH\
+  3: C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\
+  4: C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\
+  5: C:\Program Files\Git\cmd
+  6: C:\git\UnxUtils\usr\local\wbin
+  7: C:\Program Files\Microsoft SQL Server\130\Tools\Binn\
+  8: C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\
+  9: C:\Strawberry\perl\site\bin
+ 10: C:\Strawberry\perl\bin
+ 11: C:\Program Files\nodejs\
+---> Count = 11
+
+==== START TEST ====
+*** test-init: SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\
+
+*** adding: C:\Program Files\Kinx\V1\bin
+
+*** appended: SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Kinx\V1\bin;
+
+==== START TEST ====
+*** test-init: SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Kinx\V1\bin;
+==== LIST (User) ====
+  1: SystemRoot\System32\WindowsPowerShell\v1.0\
+  2: SystemRoot\System32\OpenSSH\
+  3: C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\
+  4: C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\
+  5: C:\Program Files\Git\cmd
+  6: C:\git\UnxUtils\usr\local\wbin
+  7: C:\Program Files\Microsoft SQL Server\130\Tools\Binn\
+  8: C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\
+  9: C:\Strawberry\perl\site\bin
+ 10: C:\Strawberry\perl\bin
+ 11: C:\Program Files\nodejs\
+ 12: C:\Program Files\Kinx\V1\bin
+---> Count = 12
+
+==== START TEST ====
+*** test-init: SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Kinx\V1\bin;
+
+*** deleting: C:\Program Files\nodejs\
+
+*** deleted: SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\Kinx\V1\bin
+
+==== START TEST ====
+*** test-init: SystemRoot\System32\WindowsPowerShell\v1.0\;SystemRoot\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\;C:\Program Files\Git\cmd;C:\git\UnxUtils\usr\local\wbin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\Kinx\V1\bin
+==== LIST (User) ====
+  1: SystemRoot\System32\WindowsPowerShell\v1.0\
+  2: SystemRoot\System32\OpenSSH\
+  3: C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\
+  4: C:\Program Files (x86)\Roxio 2010\OEM\AudioCore\
+  5: C:\Program Files\Git\cmd
+  6: C:\git\UnxUtils\usr\local\wbin
+  7: C:\Program Files\Microsoft SQL Server\130\Tools\Binn\
+  8: C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\
+  9: C:\Strawberry\perl\site\bin
+ 10: C:\Strawberry\perl\bin
+ 11: C:\Program Files\Kinx\V1\bin
+---> Count = 11
