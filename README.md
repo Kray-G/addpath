@@ -4,10 +4,10 @@ Easy to Add/Del the path of your exe file to the "Path" of Windows Environment V
 
 ## Features
 
+* Easy to list up current variables to check it.
 * Easy to add and delete the path to/from the `Path` environment variable.
-* It will be skipped and avoided to duplicate if your path has already existed when adding it.
-* Nothing is done if a path does not exist in the `Path` when deleting it.
-* List up current variables to check it.
+    * It will be skipped and avoided to duplicate if your path has already existed when adding it.
+    * Nothing is done if a path does not exist in the `Path` when deleting it.
 
 # How to Build
 
