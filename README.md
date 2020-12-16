@@ -7,6 +7,7 @@ Easy to Add/Del the path of your exe file to the "Path" of Windows Environment V
 * Easy to add and delete the path to/from the `Path` environment variable.
 * It will be skipped and avoided to duplicate if your path has already existed when adding it.
 * Nothing is done if a path does not exist in the `Path` when deleting it.
+* Listing crrent variables to check it.
 
 # How to Build
 
@@ -65,6 +66,7 @@ ExecWait '"$INSTDIR\addpath.exe" del system "$INSTDIR\bin"'
 ```
 $ addpath add user "C:\Program Files\YourProduct\bin"
 $ addpath del user "C:\Program Files\YourProduct\bin"
+$ addpath list user
 ```
 
 ### For System Environment Variable
@@ -74,4 +76,5 @@ Note that you need admin privilege to use "system".
 ```
 $ addpath add system "C:\Program Files\YourProduct\bin"
 $ addpath del system "C:\Program Files\YourProduct\bin"
+$ addpath list system
 ```
