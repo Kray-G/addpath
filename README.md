@@ -71,10 +71,18 @@ $ addpath list user
 
 ### For System Environment Variable
 
-Note that you need admin privilege to use "system".
+Note that you need an admin privilege to use "system".
 
 ```
 $ addpath add system "C:\Program Files\YourProduct\bin"
 $ addpath del system "C:\Program Files\YourProduct\bin"
 $ addpath list system
 ```
+
+# Please...
+
+If you have time and you think this is useful, please review and check the source code.
+And push the star before leaving this page.
+
+Thanks a lot.
+
