@@ -86,8 +86,10 @@ $ addpath list system
 
 # Please...
 
-If you have time and you think this is useful, please review and check the source code.
+If you have time and you think this is useful, please review the source code.
 And push the star before leaving this page.
+
+A bug report is always welcome.
 
 Thanks a lot.
 
