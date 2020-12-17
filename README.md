@@ -42,7 +42,8 @@ The examples are based on the following condition.
 * `addpath.exe` will be installed under `$INSTDIR`
 * The path you want to add is `$INSTDIR\bin`
 
-When you use `addpath.exe` in the NSIS script, you had better build it to run it as a background.
+When you use `addpath.exe` in the NSIS script, you had better build it to run it as a background, which means to build it with Windows Subsystem Mode.
+If you use a stuff which has built it with a console mode, note that you will see a black console window during installation.
 
 ### For Installation
 
