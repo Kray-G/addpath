@@ -16,11 +16,15 @@ Easy to Add/Del the path of your exe file to the "Path" of Windows Environment V
 
 # How to Build
 
+## Windows Subsystem Mode
+
 If you want it to run by a silent or background, build it as follows.
 
 ```
 $ cl.exe /DWINMAIN addpath.c Advapi32.lib User32.lib /link /SUBSYSTEM:WINDOWS
 ```
+
+## Console Mode
 
 If you want it as a console command, build it as follows.
 
@@ -37,7 +41,8 @@ The examples are based on the following condition.
 * The file is `addpath.exe`.
 * `addpath.exe` will be installed under `$INSTDIR`
 * The path you want to add is `$INSTDIR\bin`
-* When you use `addpath.exe` in the NSIS script, you had better build it to run it as a background.
+
+When you use `addpath.exe` in the NSIS script, you had better build it to run it as a background.
 
 ### For Installation
 
@@ -65,6 +70,9 @@ ExecWait '"$INSTDIR\addpath.exe" del system "$INSTDIR\bin"'
 ```
 
 ## At the Command line
+
+When you use `addpath.exe` on your command line, you had better build it with a console mode.
+As you know, if you build it with a background mode, which means Windows Subsystem mode, note that you will see nothing on your console.
 
 ### For User Environment Variable
 
